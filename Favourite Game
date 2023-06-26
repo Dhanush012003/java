@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        //Write your code
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Name:");
+        String a=sc.nextLine();
+        System.out.println("Game:");
+        String b=sc.nextLine();
+        System.out.println("My name is "+a+" and I love to play "+b);
+    }
+}
